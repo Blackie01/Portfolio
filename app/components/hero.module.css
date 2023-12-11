@@ -1,0 +1,30 @@
+#heroContainer {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#frontend {
+  padding-left: 1rem;
+}
+
+#developerDiv {
+  font-weight: 600;
+  line-height: 10rem;
+  font-size: 12rem;
+}
+
+#developerDiv span {
+  cursor: pointer;
+  transition: font-size 0.3s ease;
+  width: max-content;
+}
+
+#developerDiv span:hover {
+  font-size: 1.1em;
+}
+
+#oludamolaOni {
+  text-align: right;
+}

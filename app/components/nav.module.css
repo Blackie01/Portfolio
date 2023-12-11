@@ -13,3 +13,17 @@
 #menu span , #logo{
     cursor: pointer;
 }
+
+#hamburger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #menu {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+}
