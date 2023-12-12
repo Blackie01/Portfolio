@@ -5,24 +5,39 @@
   align-items: center;
 }
 
+#heroTextContainer {
+  width: 100%;
+  text-align: center;
+}
+
 #frontend {
   padding-left: 1rem;
 }
 
 #developerDiv {
+  display: flex;
+  align-items: center;
   font-weight: 600;
-  line-height: 10rem;
+  /* line-height: 10rem; */
   font-size: 12rem;
+  min-height: 11rem;
+  max-height: 11rem;
+  border: 1px solid red;
+  width: 80%;
+  margin: auto;
+
 }
 
 #developerDiv span {
+  display: inline-block;
   cursor: pointer;
   transition: font-size 0.3s ease;
-  width: max-content;
+  border: 1px solid black;
 }
 
 #developerDiv span:hover {
   font-size: 1.1em;
+  /* transform: scale(1.1); */
 }
 
 #oludamolaOni {
