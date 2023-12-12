@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import styles from "./hero.module.css";
+import Image from "next/image";
+import Crane from '../../public/Construction crane-bro.svg'
 
 export default function Hero() {
   return (
@@ -20,6 +22,8 @@ export default function Hero() {
         </div>
         <p id={styles.oludamolaOni}>OLUDAMOLA ONI</p>
       </div>
+      
+      <Image src={Crane}/>
     </section>
   );
 }

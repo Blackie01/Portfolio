@@ -8,21 +8,25 @@
 #heroTextContainer {
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 #frontend {
-  padding-left: 1rem;
+  width: 80%;
+  text-align: left;
+  margin: auto;
 }
 
 #developerDiv {
   display: flex;
   align-items: center;
   font-weight: 600;
-  /* line-height: 10rem; */
-  font-size: 12rem;
+  font-size: 1200%;
+  font-size: 12em;
   min-height: 11rem;
   max-height: 11rem;
-  border: 1px solid red;
   width: 80%;
   margin: auto;
 
@@ -37,9 +41,10 @@
 
 #developerDiv span:hover {
   font-size: 1.1em;
-  /* transform: scale(1.1); */
 }
 
 #oludamolaOni {
   text-align: right;
+  width: 80%;
+  margin: auto;
 }
