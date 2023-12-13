@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #heroTextContainer {
@@ -29,7 +30,7 @@
   max-height: 11rem;
   width: 80%;
   margin: auto;
-
+  z-index: 1;
 }
 
 #developerDiv span {
@@ -48,3 +49,4 @@
   width: 80%;
   margin: auto;
 }
+
