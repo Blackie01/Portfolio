@@ -8,7 +8,7 @@ export default function Construction() {
   return (
     <section id={styles.OverallContainer}>
       <div id={styles.imageContainer}>
-        <Image src={CraneAnimate} />
+        <Image src={CraneAnimate} alt=''/>
       </div>
 
       <div id={styles.textOuterContainer}>

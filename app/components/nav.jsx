@@ -12,7 +12,10 @@ export default function Navigation() {
 
       <div id={styles.menu}>
         <span>Work</span>
+        <Link href='/resume'>
         <span>Resume</span>
+
+        </Link>
         <span>Contact</span>
       </div>
       <div id={styles.hamburger}>

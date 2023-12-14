@@ -36,7 +36,7 @@
 #developerDiv span {
   display: inline-block;
   cursor: pointer;
-  transition: font-size 0.3s ease;
+  transition: font-size 0.8s ease;
   border: 1px solid black;
 }
 
