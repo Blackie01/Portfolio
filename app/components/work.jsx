@@ -40,7 +40,7 @@ const Work = () => {
     <section id={styles.overallContainer}>
       <div id={styles.row1}>
         <div id={styles.workIntro}>
-          <p>Work</p>
+          <p id={styles.workTitle}>Work</p>
           <p>
             I have built a number of stuff with Next.js, React.js, Angular, Vue,
             Vanilla JS, TypeScript, CSS, SCSS, MaterialUI and GSAP. Here are

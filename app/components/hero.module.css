@@ -8,28 +8,29 @@
 
 #heroTextContainer {
   width: 100%;
+  width: max-content;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  position: relative;
 }
 
 #frontend {
-  width: 80%;
+  width: 100%;
   text-align: left;
   margin: auto;
+
 }
 
 #developerDiv {
   display: flex;
   align-items: center;
   font-weight: 600;
-  font-size: 1200%;
   font-size: 12em;
   min-height: 11rem;
   max-height: 11rem;
   width: 80%;
-  margin: auto;
   z-index: 1;
 }
 
@@ -46,7 +47,38 @@
 
 #oludamolaOni {
   text-align: right;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
+@media (max-width: 1300px) {
+  #developerDiv {
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 1082px) {
+  #developerDiv {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 864px) {
+  #heroContainer {
+    height: 60vh;
+  }
+
+  #developerDiv {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 675px) {
+  #heroContainer {
+    height: 40vh;
+  }
+
+  #heroTextContainer {
+    gap: 1rem;
+  }
+}

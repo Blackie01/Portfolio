@@ -20,3 +20,25 @@
     top: 5rem;
     line-height: 1.5rem;
 }
+
+@media(max-width: 767px) {
+    .overallContainer {
+        flex-direction: column;
+    }
+
+    .mainContent, .subContent {
+        width: 100%;
+    }
+}
+
+@media (max-width: 647px) {
+    .mainContent {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 546px) {
+    .mainContent {
+        font-size: 1rem;
+    }
+}
