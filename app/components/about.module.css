@@ -1,0 +1,22 @@
+.overallContainer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    position: relative;
+    height: max-content;
+}
+
+.mainContent {
+    width: 70%;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.subContent {
+    width: 21%;
+    height: max-content;
+    position: sticky;
+    top: 5rem;
+    line-height: 1.5rem;
+}

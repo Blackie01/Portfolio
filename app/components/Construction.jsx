@@ -17,7 +17,7 @@ export default function Construction() {
             I <span id={styles.construct}>CONSTRUCT</span> PIXEL-PERFECT UIs
             LIKE A LEGO FACTORY
             <br />
-            THEN I MAKE THEM FUNCTIONAL AND SECURE
+            THEN I MAKE THEM FUNCTIONAL AND FAST
           </p>
 
           <sub>...even your grandma can use my web apps</sub>

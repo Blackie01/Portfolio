@@ -9,6 +9,8 @@ Utils:
 
 
 Implementations:
+
+- SCROLL ANIMATIONS (ESPECIALLY ONE WHERE THE TEXT KEEPS SHOWING FOCUS COLORS AS YOU SCROLL)
 - we will have a URL state management function to store what part of the initial page users are when they go back. 
 - Micro-interactions
 Animations
@@ -26,6 +28,10 @@ inspo:
 https://colorlib.com/wp/best-portfolio-websites/
 
 ----https://mbcreative.ca/
+
+
+
+We will then be using the kinda page scroll animation showed in this demo video: https://godly.website/website/953-concrete-club-studio
 
 
 storyset images: https://storyset.com/search?q=construction
