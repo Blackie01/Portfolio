@@ -6,6 +6,7 @@ import Hero from "../components/Hero"
 import Construction from "../components/Construction"
 import About from '../components/about'
 import Work from '../components/work'
+import Contact from '../components/contact'
 
 const Homepage = () => {
     return (
@@ -15,6 +16,7 @@ const Homepage = () => {
             <Construction/>
             <About/>
             <Work/>
+            <Contact/>
         </div>
     )
 }

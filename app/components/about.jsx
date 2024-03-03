@@ -24,9 +24,7 @@ const About = () => {
         DETAILS OF HOW PRODUCTS LOOK, FEEL, AND WORK.
         <br />
         <br />
-        SINCE I'M ONLY AS GOOD AS WHAT I BUILD NEXT, I KEEP LEARNING NEW WEB
-        TECHNOLOGIES AND TOOLS THAT WILL <strong>IMPROVE THE QUALITY OF MY WORK, ONE
-        COMMIT AT A TIME.</strong>
+       
       </div>
 
       <p className={styles.subContent}>

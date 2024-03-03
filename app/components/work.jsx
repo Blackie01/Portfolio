@@ -66,7 +66,7 @@ const Work = () => {
             <Image src={Automate} />
             </div>
             <div id={styles.needMyServiceContainer}>
-                Need my service?
+            Since I&apos;m only as good as what I build next, I keep learning new web technologies and tools that will improve the quality of my work, one commit at a time.
             </div>
         </div>
       </div>
