@@ -28,10 +28,11 @@
   align-items: center;
   font-weight: 600;
   font-size: 12em;
-  min-height: 11rem;
+  /* min-height: 11rem; */
   max-height: 11rem;
   width: 80%;
   z-index: 1;
+
 }
 
 #developerDiv span {
@@ -80,5 +81,27 @@
 
   #heroTextContainer {
     gap: 1rem;
+  }
+
+  #developerDiv {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 536px) {
+  #developerDiv {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 431px) {
+  #developerDiv {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 346px) {
+  #developerDiv {
+    font-size: 2rem;
   }
 }

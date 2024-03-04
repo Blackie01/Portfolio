@@ -41,3 +41,28 @@
     display: flex;
     gap: 1rem;
 }
+
+@media (max-width: 603px) {
+    #talk {
+        padding-left: 0;
+    }
+
+    .borderContainer p {
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width:486px) {
+    .borderContainer p {
+        font-size: 4rem;
+    }
+
+    #contactButton {
+        height: 4rem;
+    }
+}
