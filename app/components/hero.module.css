@@ -90,11 +90,17 @@
 
 @media (max-width: 536px) {
   #developerDiv {
-    font-size: 4rem;
+    font-size: 4.2rem;
   }
 }
 
 @media (max-width: 431px) {
+  #developerDiv {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 380px) {
   #developerDiv {
     font-size: 3rem;
   }
