@@ -3,6 +3,11 @@
     justify-content: space-between;
     width: 100%;
     padding: 2rem;
+    z-index: 2;
+    /* background-color: #E1DFDD; */
+    /* position: sticky;
+    top: 0;
+    left: 0; */
 }
 
 #menu {
@@ -14,9 +19,33 @@
     cursor: pointer;
 }
 
+#logo {
+    z-index: 2;
+}
+
 #hamburger {
     display: none;
+    z-index: 2;
 }
+
+#responsiveMenu {
+    display: none;
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #E1DFDD;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 10rem;
+    align-items: center;
+    border-bottom: 4px solid #000;
+    transform: translateY(-100vh);
+    transition: transform 1s ease-in-out;
+  }
 
 @media (max-width: 768px) {
     #menu {

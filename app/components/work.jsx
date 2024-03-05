@@ -15,26 +15,31 @@ const Work = () => {
 
   useEffect(() => {
     const handleScrollBgChange = () => {
-        const sectionPosition = sectionRef.current?.getBoundingClient()
-        if (sectionPosition?.top < window.innerHeight && sectionPosition.bottom < 0) {
-            document.body.style.backgroundColor = '#000'
-        } else {
-            document.body.style.backgroundColor = '#E1DFDD'
-        }
-    }
-
-    ScrollTrigger.create ({
-        trigger: sectionRef.current,
-        start: 'top top',
-        end: 'bottom bottom',
-        onEnter: handleScrollBgChange(),
-        onLeaveBack: handleScrollBgChange(),
-    })
-
+      const sectionPosition = sectionRef.current?.getBoundingClientRect();
+      console.log("Section position:", sectionPosition);
+  
+      if (sectionPosition?.top < window.innerHeight && sectionPosition.bottom > 0) {
+        // Change the background color of the parent container
+        sectionRef.current.parentElement.style.backgroundColor = '#000';
+      } else {
+        // Revert back to default background color
+        sectionRef.current.parentElement.style.backgroundColor = '#E1DFDD';
+      }
+    };
+  
+    ScrollTrigger.create({
+      trigger: sectionRef.current,
+      start: 'top top',
+      end: 'bottom bottom',
+      onEnter: handleScrollBgChange,
+      onLeaveBack: handleScrollBgChange,
+    });
+  
+    // Cleanup function
     return () => {
-        window.removeEventListener('scroll', handleScrollBgChange)
-    }
-  }, [])
+      window.removeEventListener('scroll', handleScrollBgChange);
+    };
+  }, []);
 
   return (
     <section id={styles.overallContainer}>
@@ -48,22 +53,22 @@ const Work = () => {
           </p>
         </div>
         <div className={styles.overlay} id={styles.aibContainer}>
-          <Image src={AIB} />
+          <Image src={AIB} alt=''/>
         </div>
       </div>
 
       <div id={styles.row2}>
         <div id={styles.row2Left}>
           <div className={styles.overlay} id={styles.syncSkillsContainer}>
-            <Image src={SyncSkills} />
+            <Image src={SyncSkills} alt=''/>
           </div>
           <div className={styles.overlay} id={styles.scissorsContainer}>
-            <Image src={Scissors} />
+            <Image src={Scissors} alt=''/>
           </div>
         </div>
         <div id={styles.row2Right}>
             <div className={styles.overlay} id={styles.automateContainer}>
-            <Image src={Automate} />
+            <Image src={Automate} alt=''/>
             </div>
             <div id={styles.needMyServiceContainer}>
             Since I&apos;m only as good as what I build next, I keep learning new web technologies and tools that will improve the quality of my work, one commit at a time.
