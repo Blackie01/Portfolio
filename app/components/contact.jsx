@@ -6,9 +6,9 @@ const Contact = () => {
     <section className={styles.overallContainer}>
       <section className={styles.borderContainer}>
         <p>Let&apos;s</p>
-        <hr />
+        <hr style={{height: '1px', border: "0.5px solid #000"}}  />
         <p id={styles.talk}>Talk</p>
-        <hr />
+        <hr style={{height: '1px', border: "0.5px solid #000"}} />
         <a target="_blank" href="mailto:onioludamola@gmail.com" id={styles.contactButton}>via email</a>
       </section>
 
