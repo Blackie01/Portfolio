@@ -37,18 +37,18 @@ export default function Navigation() {
   return (
     <div id={styles.navbarcontainer}>
       <div id={styles.logo}>
-        <Link href="/">Oludamola</Link>
+        <Link className={styles.menuItem} href="/">Oludamola</Link>
       </div>
 
       <div id={styles.menu}>
         <Link href="" onClick={() => scrollToSection("work")}>
-          <span>Work</span>
+          <span className={styles.menuItem}>Work</span>
         </Link>
         <Link href="/resume">
-          <span>Resume</span>
+          <span className={styles.menuItem}>Resume</span>
         </Link>
         <Link href="" onClick={() => scrollToSection("contact")}>
-          <span>Contact</span>
+          <span className={styles.menuItem}>Contact</span>
         </Link>
       </div>
       <div id={styles.hamburger} onClick={handleResponsiveMenuOpen}>
