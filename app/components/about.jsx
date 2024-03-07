@@ -15,7 +15,7 @@ const About = () => {
         <br />
         <br />
         <div className={styles.imageContainer}>
-          <Image className={styles.image} src={Oludamola} alt="" />
+          <Image loading="eager" className={styles.image} src={Oludamola} alt="" />
         </div>
         <br />
         I&apos;M NOT THAT DEVELOPER THAT JUST WANTS TO SIT AND WAIT FOR
