@@ -33,7 +33,7 @@
 #downloadButton {
     position: fixed;
     bottom: 2rem;
-    left: 2rem;
+    right: 2rem;
     background-color: #2F2F2F;
     padding: 0.5rem;
     color: #fff;
