@@ -19,6 +19,21 @@ export default function Navigation() {
     }
   }, [openResponsiveMenu]);
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToMobileSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      handleResponsiveMenuOpen()
+    }
+  };
+
   return (
     <div id={styles.navbarcontainer}>
       <div id={styles.logo}>
@@ -26,11 +41,15 @@ export default function Navigation() {
       </div>
 
       <div id={styles.menu}>
-        <span>Work</span>
+        <Link href="" onClick={() => scrollToSection("work")}>
+          <span>Work</span>
+        </Link>
         <Link href="/resume">
           <span>Resume</span>
         </Link>
-        <span>Contact</span>
+        <Link href="" onClick={() => scrollToSection("contact")}>
+          <span>Contact</span>
+        </Link>
       </div>
       <div id={styles.hamburger} onClick={handleResponsiveMenuOpen}>
         {openResponsiveMenu ? (
@@ -41,11 +60,15 @@ export default function Navigation() {
       </div>
 
       <div ref={responsiveMenuRef} id={styles.responsiveMenu}>
-        <span>Work</span>
+        <Link href="" onClick={() => scrollToMobileSection("work")}>
+          <span>Work</span>
+        </Link>
         <Link href="/resume">
           <span>Resume</span>
         </Link>
-        <span>Contact</span>
+        <Link href="" onClick={() => scrollToMobileSection("contact")}>
+          <span>Contact</span>
+        </Link>
       </div>
     </div>
   );

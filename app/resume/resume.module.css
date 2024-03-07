@@ -1,21 +1,43 @@
 .overallContainer {
     height: 100vh;
     width: 100%;
-    background-color: #E1DFDD;
+    background-color: #2F2F2F;
     overflow: hidden;
+    position: relative;
+}
+
+#logoContainer {
+    width: max-content;
+    cursor: pointer;
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    color: #fff;
+    background-color: #2F2F2F;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
 }
 
 #container {
     height: 100%;
-}
-
-#container p {
-    padding-left: 2rem;
+    position: relative;
 }
 
 .iFrame {
     width: 100%;
     height: 90vh;
     border: none;
-    display: flex;
+}
+
+#downloadButton {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    background-color: #2F2F2F;
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
 }
