@@ -1,0 +1,11 @@
+.overallContainer {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.tableOfContent {
+    position: sticky;
+    top: 10rem;
+}

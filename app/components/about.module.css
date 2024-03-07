@@ -21,6 +21,30 @@
     line-height: 1.5rem;
 }
 
+.imageContainer {
+    width: 40rem;
+    width: clamp(15rem, 80%, 30rem);
+    margin: auto;
+    height: 40rem;
+    height: clamp(15rem, 75vh, 40rem);
+    /* background-color: #fff; */
+    border-radius: 20px;
+    position: relative;
+    /* border: 2px solid #000; */
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+/* @media (max-width: 1000px) {
+    .imageContainer {
+        width: 30rem;
+        height: 30rem;
+    }
+} */
+
 @media(max-width: 767px) {
     .overallContainer {
         flex-direction: column;
@@ -35,10 +59,19 @@
     .mainContent {
         font-size: 1.5rem;
     }
+
+    .imageContainer {
+        height: clamp(15rem, 60vh, 40rem);
+    }
 }
 
 @media (max-width: 546px) {
     .mainContent {
         font-size: 1rem;
     }
+
+    .imageContainer {
+        height: clamp(15rem, 50vh, 40rem);
+    }
+
 }
