@@ -30,14 +30,16 @@ export default function Navigation() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-      handleResponsiveMenuOpen()
+      handleResponsiveMenuOpen();
     }
   };
 
   return (
     <div id={styles.navbarcontainer}>
       <div id={styles.logo}>
-        <Link className={styles.menuItem} href="/">Oludamola</Link>
+        <Link className={styles.menuItem} href="/">
+          Oludamola
+        </Link>
       </div>
 
       <div id={styles.menu}>

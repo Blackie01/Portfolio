@@ -1,20 +1,19 @@
-'use client'
+"use client";
 
 import React, { useEffect, useState } from "react";
-import styles from './projectCaseStudy.module.css'
+import styles from "./projectCaseStudy.module.css";
 import { useSearchParams } from "next/navigation";
 
 const ProjectCaseStudy = () => {
-    const [searchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const [caseStudyId, setCaseStudyId] = useState(null);
 
   useEffect(() => {
-    const id = searchParams.get('id');
+    const id = searchParams.get("id");
     setCaseStudyId(id);
   }, [searchParams]);
 
-  console.log(caseStudyId)
-   
+  console.log(caseStudyId);
 
   return (
     <section className={styles.overallContainer}>

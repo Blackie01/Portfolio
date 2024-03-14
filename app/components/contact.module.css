@@ -42,6 +42,10 @@
     gap: 1rem;
 }
 
+#creditBreak {
+    display: none;
+}
+
 @media (max-width: 603px) {
     #talk {
         padding-left: 0;
@@ -64,5 +68,11 @@
 
     #contactButton {
         height: 4rem;
+    }
+}
+
+@media (max-width: 454px) {
+    #creditBreak {
+        display: block;
     }
 }

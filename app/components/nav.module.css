@@ -1,75 +1,76 @@
 #navbarcontainer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 2rem;
-    z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+  z-index: 2;
 }
 
 #menu {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 
-#menu span , #logo{
-    cursor: pointer;
+#menu span,
+#logo {
+  cursor: pointer;
 }
 
-.menuItem{
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .menuItem:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #000;
-    transition: width 0.3s ease-out;
-  }
-  
-  .menuItem:hover::before {
-    width: 100%;
-  }
+.menuItem {
+  position: relative;
+  cursor: pointer;
+}
+
+.menuItem:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-out;
+}
+
+.menuItem:hover::before {
+  width: 100%;
+}
 
 #logo {
-    z-index: 4;
+  z-index: 4;
 }
 
 #hamburger {
-    display: none;
-    z-index: 4;
+  display: none;
+  z-index: 4;
 }
 
 #responsiveMenu {
-    z-index: 3;
-    display: none;
-    display: block;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    background-color: #E1DFDD;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    padding-top: 10rem;
-    align-items: center;
-    border-bottom: 4px solid #000;
-    transform: translateY(-100vh);
-    transition: transform 1s ease-in-out;
-  }
+  z-index: 3;
+  display: none;
+  display: block;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: #e1dfdd;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 10rem;
+  align-items: center;
+  border-bottom: 4px solid #000;
+  transform: translateY(-100vh);
+  transition: transform 1s ease-in-out;
+}
 
 @media (max-width: 768px) {
-    #menu {
-        display: none;
-    }
+  #menu {
+    display: none;
+  }
 
-    #hamburger {
-        display: block;
-    }
+  #hamburger {
+    display: block;
+  }
 }

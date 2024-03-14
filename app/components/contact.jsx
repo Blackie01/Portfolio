@@ -18,7 +18,7 @@ const Contact = () => {
           <a target="_blank" href="https://twitter.com/blhack_">Twitter</a>
         </div>
 
-        <div>Design and Development: Oludamola Oni (©a blhack site)</div>
+        <div>Design and Development: Oludamola Oni <br id={styles.creditBreak}/>(©a blhack site)</div>
       </div>
     </section>
   );
