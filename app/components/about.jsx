@@ -1,17 +1,14 @@
 import React from "react";
 import styles from "./about.module.css";
 import Oludamola from "../assets/oludamola.png";
-import AIB from "../assets/aib.png";
 import Image from "next/image";
 
 const About = () => {
   return (
     <section className={styles.overallContainer}>
       <div className={styles.mainContent}>
-        I&apos;M OLUDAMOLA ONI, A <strong>FRONTEND ENGINEER</strong> WITH
-        BACKGROUND IN PRODUCT MANAGEMENT AND CONTENT MARKETING. WHEN WORKING ON
-        A PROJECT, I MAKE SURE TO LEVERAGE MY KNOWLEDGE OF HOW PRODUCTS SHOULD
-        WORK, AND WHAT PEOPLE WANT TO SEE.
+        I&apos;M OLUDAMOLA ONI, A <strong>DEVELOPER</strong> PASSIONATE ABOUT 
+        ENGINEERING HOW HUMANS INTERFACE AND INTERACT WITH COMPUTERS AND SOFTWARE.
         <br />
         <br />
         <div className={styles.imageContainer}>
