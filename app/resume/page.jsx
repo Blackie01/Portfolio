@@ -4,9 +4,10 @@ import styles from "./resume.module.css";
 import Link from "next/link";
 
 const Resume = () => {
+
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1pv87_xwRrZI9rOoJF_S2ExQwTLazlBBJ/view?usp=sharing"
+      "https://drive.google.com/file/d/1K8qo9SyNbaIg4r_QTlR3Qqrv8c0w-tQ4/view?usp=sharing"
     );
   };
 
@@ -22,7 +23,7 @@ const Resume = () => {
         </p>
         <iframe
           style={{ border: "none" }}
-          src="https://drive.google.com/file/d/1pv87_xwRrZI9rOoJF_S2ExQwTLazlBBJ/preview"
+          src="https://drive.google.com/file/d/1K8qo9SyNbaIg4r_QTlR3Qqrv8c0w-tQ4/preview"
           width="100%"
           height="100%"
           allow="autoplay"
@@ -31,5 +32,7 @@ const Resume = () => {
     </section>
   );
 };
+
+
 
 export default Resume;
