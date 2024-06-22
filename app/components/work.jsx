@@ -17,9 +17,9 @@ const Work = () => {
         <div id={styles.workIntro}>
           <p id={styles.workTitle}>Work</p>
           <p>
-            I have built a number of stuff with Next.js, React.js, Angular, Vue,
-            Vanilla JS, TypeScript, CSS, SCSS, MaterialUI and GSAP. Here are
-            some:
+            I have built a number of stuff with Next.js, React.js, Angular,
+            JavaScript, TypeScript, CSS, SCSS, TailwindCSS MaterialUI, Redux and
+            GSAP. Here are some:
           </p>
         </div>
         <Link
@@ -29,6 +29,25 @@ const Work = () => {
           id={styles.aibContainer}
         >
           <Image src={AIB} alt="" />
+          <div className={styles.info}>
+            <div className={styles.slideContainer}>
+              <p>
+                <span className={styles.infoTitle}>Name:</span>
+                <span>AIB Portfolio</span>
+              </p>
+              <p>
+                <span className={styles.infoTitle}>Detail:</span>
+                <span>
+                  Scroll animated portfolio for Akinola Ifeoluwa, a software
+                  developer.
+                </span>
+              </p>
+              <p>
+                <span className={styles.infoTitle}>Tech Stack:</span>
+                <span>Next.js | JavaScript | GSAP | CSS</span>
+              </p>
+            </div>
+          </div>
         </Link>
       </div>
 
@@ -41,6 +60,24 @@ const Work = () => {
             id={styles.syncSkillsContainer}
           >
             <Image src={SyncSkills} alt="" />
+            <div className={styles.info}>
+              <div className={styles.slideContainer}>
+                <p>
+                  <span className={styles.infoTitle}>Name:</span>
+                  <span>SyncSkills</span>
+                </p>
+                <p>
+                  <span className={styles.infoTitle}>Detail:</span>
+                  <span>
+                    Landing page exploration for SyncSkills - a digital school.
+                  </span>
+                </p>
+                <p>
+                  <span className={styles.infoTitle}>Tech Stack:</span>
+                  <span>Next.js | JavaScript | CSS</span>
+                </p>
+              </div>
+            </div>
           </Link>
           <Link
             target="_blank"
@@ -49,6 +86,22 @@ const Work = () => {
             id={styles.scissorsContainer}
           >
             <Image src={Scissors} alt="" />
+            <div className={styles.info}>
+              <div className={styles.slideContainer}>
+                <p>
+                  <span className={styles.infoTitle}>Name:</span>
+                  <span>Scissors</span>
+                </p>
+                <p>
+                  <span className={styles.infoTitle}>Detail:</span>
+                  <span>A link shortening tool.</span>
+                </p>
+                <p>
+                  <span className={styles.infoTitle}>Tech Stack:</span>
+                  <span>React | JavaScript | CSS</span>
+                </p>
+              </div>
+            </div>
           </Link>
         </div>
         <div id={styles.row2Right}>
@@ -59,6 +112,25 @@ const Work = () => {
             id={styles.automateContainer}
           >
             <Image src={Automate} alt="" />
+            <div className={styles.info}>
+              <div className={styles.slideContainer}>
+                <p>
+                  <span className={styles.infoTitle}>Name:</span>
+                  <span>Automate</span>
+                </p>
+                <p>
+                  <span className={styles.infoTitle}>Detail:</span>
+                  <span>
+                    Product exploration for Automate - a concept Fleet
+                    Management tool.
+                  </span>
+                </p>
+                <p>
+                  <span className={styles.infoTitle}>Tech Stack:</span>
+                  <span>React | JavaScript | CSS</span>
+                </p>
+              </div>
+            </div>
           </Link>
           <div id={styles.needMyServiceContainer}>
             Since I&apos;m only as good as what I build next, I keep learning

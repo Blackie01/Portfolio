@@ -15,11 +15,13 @@ const About = () => {
           <Image loading="eager" className={styles.image} src={Oludamola} alt="" />
         </div>
         <br />
-        I&apos;M NOT THAT DEVELOPER THAT JUST WANTS TO SIT AND WAIT FOR
-        FIGMA FILES. NO.{" "}
+        I&apos;M THAT DEVELOPER WHO DOES MORE THAN WAIT FOR
+        FIGMA FILES.{" "}
         <strong>
           I WANT TO BE A CORE PART OF THE PROCESS OF DEVELOPING GREAT PRODUCTS.
         </strong>{" "}
+        <br/>
+        <br/>
         I MEAN; FINDING PROBLEMS, IDEATING FEASIBLE SOLUTIONS, CONTRIBUTING
         ENGINEERING EXPERTISE, CONCEPTUALISING JAW-DROPPING DESIGNS, ETC. THESE
         ARE THE THINGS I LIVE FOR.

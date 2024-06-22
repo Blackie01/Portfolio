@@ -20,7 +20,7 @@ export default function Construction() {
             THEN I MAKE THEM FUNCTIONAL AND FAST
           </p>
 
-          <sub>...even your grandma can use my web apps</sub>
+          <sub>...even a grandma can use my web apps</sub>
         </div>
       </div>
     </section>
