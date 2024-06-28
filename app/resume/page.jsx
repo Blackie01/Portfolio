@@ -7,7 +7,7 @@ const Resume = () => {
 
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1K8qo9SyNbaIg4r_QTlR3Qqrv8c0w-tQ4/view?usp=sharing"
+      "https://drive.google.com/file/d/1h5Om7ClGMWe0w5UIIyg2AoeOHq7NVEGz/view?usp=sharing"
     );
   };
 
@@ -23,7 +23,7 @@ const Resume = () => {
         </p>
         <iframe
           style={{ border: "none" }}
-          src="https://drive.google.com/file/d/1K8qo9SyNbaIg4r_QTlR3Qqrv8c0w-tQ4/preview"
+          src="https://drive.google.com/file/d/1h5Om7ClGMWe0w5UIIyg2AoeOHq7NVEGz/preview"
           width="100%"
           height="100%"
           allow="autoplay"
