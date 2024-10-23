@@ -23,7 +23,7 @@ const Resume = () => {
         </p>
         <iframe
           style={{ border: "none" }}
-          src="https://drive.google.com/file/d/1h5Om7ClGMWe0w5UIIyg2AoeOHq7NVEGz/preview"
+          src="https://drive.google.com/file/d/1fXFvIe9olD49Hv-un_9ft70zakvajiZ0/preview"
           width="100%"
           height="100%"
           allow="autoplay"
