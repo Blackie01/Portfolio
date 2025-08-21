@@ -2,9 +2,13 @@ import React, { useEffect, useRef } from "react";
 import styles from "./work.module.css";
 import Image from "next/image";
 import AIB from "../assets/aib.png";
+import Imbrief from "../assets/imbrief.png"
+import ExpenseExpress from "../assets/xpenseExpress.png"
 import SyncSkills from "../assets/syncSkills.png";
+import FinAi from "../assets/finAi.png"
 import Scissors from "../assets/scissors.png";
 import Automate from "../assets/automate.png";
+import Cashabank from "../assets/cashabank.png"
 import Link from "next/link";
 
 const Work = () => {
@@ -18,33 +22,33 @@ const Work = () => {
           <p id={styles.workTitle}>Work</p>
           <p>
             I have built a number of stuff with Next.js, React.js, Angular,
-            JavaScript, TypeScript, CSS, SCSS, TailwindCSS MaterialUI, Redux and
+            JavaScript, TypeScript, CSS, SCSS, TailwindCSS, MaterialUI, Redux and
             GSAP. Here are some:
           </p>
         </div>
         <Link
           target="_blank"
-          href={"https://akinolaifeoluwa.vercel.app/"}
+          href={"https://www.immigrationbrief.com/"}
           className={styles.overlay}
           id={styles.aibContainer}
         >
-          <Image src={AIB} alt="" />
+          <Image src={Imbrief} alt="" />
           <div className={styles.info}>
             <div className={styles.slideContainer}>
               <p>
                 <span className={styles.infoTitle}>Name:</span>
-                <span>AIB Portfolio</span>
+                <span>Immigration Brief</span>
               </p>
               <p>
                 <span className={styles.infoTitle}>Detail:</span>
                 <span>
-                  Scroll animated portfolio for Akinola Ifeoluwa, a software
-                  developer.
+                  Contract founding engineer on the Immigration Brief team; built the marketing web pages, core 
+                  pricing and subscription flow, SSE notification system, user profile management, etc. 
                 </span>
               </p>
               <p>
                 <span className={styles.infoTitle}>Tech Stack:</span>
-                <span>Next.js | JavaScript | GSAP | CSS</span>
+                <span>Next.js | TypeScript | Framer Motion | TailwindCSS | RTK | Jest</span>
               </p>
             </div>
           </div>
@@ -55,50 +59,53 @@ const Work = () => {
         <div id={styles.row2Left}>
           <Link
             target="_blank"
-            href={"https://syncskills.vercel.app/"}
+            href={"https://expense-xpress.vercel.app/"}
             className={styles.overlay}
             id={styles.syncSkillsContainer}
           >
-            <Image src={SyncSkills} alt="" />
+            <Image src={ExpenseExpress} alt="" />
             <div className={styles.info}>
               <div className={styles.slideContainer}>
                 <p>
                   <span className={styles.infoTitle}>Name:</span>
-                  <span>SyncSkills</span>
+                  <span>ExpenseExpress</span>
                 </p>
                 <p>
                   <span className={styles.infoTitle}>Detail:</span>
                   <span>
-                    Landing page exploration for SyncSkills - a digital school.
+                    An expense and income tracking application for small businesses to keep track of credit and debit transactions.
+                    Also used to generate invoice for their customers. 
                   </span>
                 </p>
                 <p>
                   <span className={styles.infoTitle}>Tech Stack:</span>
-                  <span>Next.js | JavaScript | CSS</span>
+                  <span>Next.js | TypeScript | RTK | Jest | TailwindCSS</span>
                 </p>
               </div>
             </div>
           </Link>
           <Link
             target="_blank"
-            href={"https://scissors-neon.vercel.app/"}
+            href={"https://finai-landing-page.vercel.app/"}
             className={styles.overlay}
             id={styles.scissorsContainer}
           >
-            <Image src={Scissors} alt="" />
+            <Image src={FinAi} alt="" />
             <div className={styles.info}>
               <div className={styles.slideContainer}>
                 <p>
                   <span className={styles.infoTitle}>Name:</span>
-                  <span>Scissors</span>
+                  <span>FinAi</span>
                 </p>
                 <p>
                   <span className={styles.infoTitle}>Detail:</span>
-                  <span>A link shortening tool.</span>
+                  <span>FinAi is an AI powered fintech application that helps users manage their finances. My work involved building
+                  the marketing pages, the blog interface, and optimizing the heavy animated pages for high-performance.
+                  </span>
                 </p>
                 <p>
                   <span className={styles.infoTitle}>Tech Stack:</span>
-                  <span>React | JavaScript | CSS</span>
+                  <span>Next.js | TypeScript | TailwindCSS | Framer Motion</span>
                 </p>
               </div>
             </div>
@@ -107,36 +114,36 @@ const Work = () => {
         <div id={styles.row2Right}>
           <Link
             target="_blank"
-            href={"https://auto-mate.vercel.app/"}
+            href={"https://www.cashabank.com/"}
             className={styles.overlay}
             id={styles.automateContainer}
           >
-            <Image src={Automate} alt="" />
+            <Image src={Cashabank} alt="" />
             <div className={styles.info}>
               <div className={styles.slideContainer}>
                 <p>
                   <span className={styles.infoTitle}>Name:</span>
-                  <span>Automate</span>
+                  <span>Cashabank MFB</span>
                 </p>
                 <p>
                   <span className={styles.infoTitle}>Detail:</span>
                   <span>
-                    Product exploration for Automate - a concept Fleet
-                    Management tool.
+                    Part of the core team building the Cashabank MFB web applications. Responsible for the marketing landing pages, 
+                    dashboard, etc.
                   </span>
                 </p>
                 <p>
                   <span className={styles.infoTitle}>Tech Stack:</span>
-                  <span>React | JavaScript | CSS</span>
+                  <span>Next.js | TypeScript | TailwindCSS | React Query</span>
                 </p>
               </div>
             </div>
           </Link>
-          <div id={styles.needMyServiceContainer}>
+          {/* <div id={styles.needMyServiceContainer}>
             Since I&apos;m only as good as what I build next, I keep learning
             new web technologies and tools that will improve the quality of my
             work, one commit at a time.
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

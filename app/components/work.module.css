@@ -74,7 +74,7 @@
 }
 
 #automateContainer {
-  height: 80%;
+  height: 100%;
 }
 
 #automateContainer img {
@@ -130,6 +130,10 @@
   background-color: #1a1919;
   border-radius: 15px;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 14px;
 }
 
 .overlay:hover .info {
