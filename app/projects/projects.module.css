@@ -1,0 +1,20 @@
+.overallContainer {
+    min-height: 100vh;
+    background-color: var(--light);
+}
+
+.headerContainer {
+
+}
+
+.headerText {
+    font-size: 108px;
+    color: transparent;
+    -webkit-text-stroke: 2px #c7c3bf;
+    text-align: center;
+}
+
+.subline {
+    text-align: center;
+    color: #b5a79a;
+}
