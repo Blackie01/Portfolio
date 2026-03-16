@@ -7,7 +7,7 @@ export default function Hero() {
     <section>
       <section id={styles.heroContainer}>
         <div id={styles.heroTextContainer}>
-          <p id={styles.frontend}>FRONT-END</p>
+          <p id={styles.frontend}>FRONTEND WEB & MOBILE</p>
           <div id={styles.developerDiv}>
             <span>D</span>
             <span>E</span>
